@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(M3) Exercici EXTRA 2. Litres de pintura necessaris.</title>
+</head>
+<body>
+    <h1>(M3) Exercici EXTRA 2. Litres de pintura necessaris.</h1>
+    <h4>Escriu un programa JavaScript que calculi els litres de pintura necessaris per a pintar una paret rectangular.</h4>
+    <p>Un litre de pintura cobreix aproximadament, 12m² en una sola mà. Crear una constant, Cobertura a Litros (recordar les convencions de noms) per a guardar la dada de cobertura de la pintura (12m²).</p>
+    <p>Hauràs de demanar a l'usuari/ària:</p>
+    <ol>
+        <li>L'alt i ample de la paret (multiplicant sabràs l'àrea de la mateixa).</li>
+        <li>El nombre de mans a aplicar.</li>
+    </ol>
+    <p>Mostra en pantalla els litres de pintura a utilitzar.</p>
+     
+    <hr>
+
+    
+    <!-- PROGRAMA AMB FUNCIÓ     -->
+    <label>Altura Paret: </label>
+    <input type="number" id="alturaParet">
+    <br>
+
+    <label>Amplada Paret: </label>
+    <input type="number" id="ampladaParet">
+    <br>
+
+    <label>Numero de mans: </label>
+    <input type="number" id="mans">
+    <br>
+
+    <!-- <button onclick="multipicar()"> Aceptar</button> -->
+    <button onclick="multiplicar()">Aceptar</button>
+    <!-- <input type='button' onClick="multiplicar()" Value='Aceptar' /> -->
+
+    <p id="totalMetresQuadrats"></p>
+
+    <p id="numeroDeMans"></p>
+
+    
+    <p id="totalLitresPintura"></p>
+
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
